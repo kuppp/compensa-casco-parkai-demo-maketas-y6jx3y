@@ -1,0 +1,308 @@
+{
+  "data": [
+    {
+      "flag": "0", "plId": 1,
+      "policy": "190 0007564",
+      "beginDate": "2021-11-20",
+      "endDate": "2022-11-19",
+      "vehicle": {
+        "type": "Lengvieji automobiliai",
+        "make": "TOYOTA",
+        "model": "PROACE",
+        "plateNo": "LSR385",
+        "vinNo": "YARVEAHHWGZ125853",
+        "manufYear": "2018",
+        "value": "12000",
+        "signalLevel":"3",
+        "mass": "1200",
+        "power": "120",
+        "seats": "5",
+        "bodyType": "Hačbekas",
+        "fuelType": "Benzinas",
+        "riskPackageName": "Bazinis",
+        "deductiblePackageName": "50 EUR / 10% VAGYSTEI"
+      },
+      "premium": "500",
+      "additionalInsurance": {
+        "premium": "12",
+        "name": "Išplėstinė Pagalba, Vairuotojas ir keleiviai"
+      },
+      "schedule": [
+          {"date": "2022-01-01", "paymentSum": "125.00", "paidSum": "150.00"},
+          {"date": "2022-04-01", "paymentSum": "125.00", "paidSum": "0.00"},
+          {"date": "2022-08-01", "paymentSum": "125.00", "paidSum": "0.00"},
+          {"date": "2022-12-01", "paymentSum": "125.00", "paidSum": "0.00"}
+    ]
+    },
+    {
+      "flag": "2", "plId": 2,
+      "policy": "190 0007565",
+      "beginDate": "2021-11-20",
+      "endDate": "2022-11-19",
+      "vehicle": {
+        "type": "Lengvieji automobiliai",
+        "make": "TOYOTA",
+        "model": "PROACE",
+        "plateNo": "LSR387",
+        "vinNo": "YARVEAHHWGZ125456",
+        "manufYear": "2018",
+        "value": "12000",
+        "signalLevel":"2",
+        "mass": "1230",
+        "power": "90",
+        "seats": "5",
+        "bodyType": "Hačbekas",
+        "fuelType": "Benzinas",
+        "riskPackageName": "Bazinis",
+        "deductiblePackageName": "50 EUR / 10% VAGYSTEI"
+      },
+      "premium": "500",
+      "additionalInsurance": {
+        "premium": "6",
+        "name": "Vairuotojas ir keleiviai"
+      },
+      "schedule": [
+        {"date": "2022-01-01", "paymentSum": "125.00", "paidSum": "15.00"},
+        {"date": "2022-04-01", "paymentSum": "125.00", "paidSum": "0.00"},
+        {"date": "2022-08-01", "paymentSum": "125.00", "paidSum": "0.00"},
+        {"date": "2022-12-01", "paymentSum": "125.00", "paidSum": "0.00"}
+  ]
+    },
+    {
+      "flag": "1", "plId": 3,
+      "policy": "190 0007566",
+      "beginDate": "2021-12-02",
+      "endDate": "2022-11-19",
+      "vehicle": {
+        "type": "Krovininiai automobiliai",
+        "make": "MAN",
+        "model": "543",
+        "plateNo": "ABB111",
+        "vinNo": "YARVEAHHWGZ125456",
+        "manufYear": "2011",
+        "value": "22000",
+        "signalLevel":"3"
+      },
+      "premium": "4500",
+      "additionalInsurance": {
+        "premium": "6",
+        "name": "Vairuotojas ir keleiviai"
+      }, "error":"Validatoriaus ribojimai",
+      "schedule": [
+        {"date": "2022-01-01", "paymentSum": "1125.00", "paidSum": "1125.00"},
+        {"date": "2022-04-01", "paymentSum": "1125.00", "paidSum": "0.00"},
+        {"date": "2022-08-01", "paymentSum": "1125.00", "paidSum": "0.00"},
+        {"date": "2022-12-01", "paymentSum": "1125.00", "paidSum": "0.00"}
+  ]
+    },
+    {
+      "flag": "0", "plId": 4,
+      "policy": "190 0007567",
+      "beginDate": "2021-12-02",
+      "endDate": "2022-11-19",
+      "cancelationDate": "2021-12-30",
+      "vehicle": {
+        "type": "Krovininiai automobiliai",
+        "make": "MAN",
+        "model": "543",
+        "plateNo": "ABB112",
+        "vinNo": "YARVEAHHWGZ125456",
+        "manufYear": "2011",
+        "value": "31000",
+        "signalLevel":"3"
+      },
+      "premium": "4500",
+      "additionalInsurance": {
+        "premium": "6",
+        "name": "Vairuotojas ir keleiviai"
+      },      "schedule": [
+        {"date": "2021-12-02", "paymentSum": "1125.00", "paidSum": "1125.00"}
+  ]
+    },
+    {
+      "flag": "0", "plId": 5,
+      "policy": "190 0007568",
+      "beginDate": "2021-12-02",
+      "endDate": "2022-11-19",
+      "vehicle": {
+        "type": "Krovininiai automobiliai",
+        "make": "MAN",
+        "model": "543",
+        "plateNo": "ABB113",
+        "vinNo": "YARVEAHHWGZ125455",
+        "manufYear": "2011",
+        "value": "18000",
+        "signalLevel":"3"
+      },
+      "premium": "4500",
+      "additionalInsurance": {
+        "premium": "6",
+        "name": "Vairuotojas ir keleiviai"
+      },
+      "schedule": [
+        {"date": "2022-01-01", "paymentSum": "1125.00", "paidSum": "0.00"},
+        {"date": "2022-04-01", "paymentSum": "1125.00", "paidSum": "0.00"},
+        {"date": "2022-08-01", "paymentSum": "1125.00", "paidSum": "0.00"},
+        {"date": "2022-12-01", "paymentSum": "1125.00", "paidSum": "0.00"}
+  ]
+    },
+    {
+      "flag": "2", "plId": 6,
+      "policy": "190 0007569",
+      "beginDate": "2021-12-04",
+      "endDate": "2022-11-19",
+      "vehicle": {
+        "type": "Krovininiai automobiliai",
+        "make": "MAN",
+        "model": "543",
+        "plateNo": "ABB115",
+        "vinNo": "YARVEAHHWGZ156556",
+        "manufYear": "2011",
+        "value": "5000",
+        "signalLevel":"3"
+      }, "additionalInsurance": {},
+      "premium": "4000", "status":"2",
+      "schedule": [
+        {"date": "2022-01-01", "paymentSum": "1000.00", "paidSum": "1000.00"},
+        {"date": "2022-04-01", "paymentSum": "1000.00", "paidSum": "0.00"},
+        {"date": "2022-08-01", "paymentSum": "1000.00", "paidSum": "0.00"},
+        {"date": "2022-12-01", "paymentSum": "1000.00", "paidSum": "0.00"}
+  ]
+    },
+
+    {
+      "flag": "1", "plId": 7,
+      "policy": "190 00075670",
+      "beginDate": "2021-11-20",
+      "endDate": "2022-11-19",
+      "vehicle": {
+        "type": "Lengvieji automobiliai",
+        "make": "VW",
+        "model": "PASSAT",
+        "plateNo": "HBN234",
+        "vinNo": "YARVEAHHWGZ125456",
+        "manufYear": "2018",
+        "value": "7000",
+        "signalLevel":"3"
+      },
+      "premium": "",
+      "additionalInsurance": {
+        "premium": "",
+        "name": "Išplėstinė Pagalba, Vairuotojas ir keleiviai"
+      },
+      "error": "Neapskaičiuota įmoka"
+    },
+
+    {
+      "flag": "2", "plId": 8,
+      "policy": "190 00075688",
+      "beginDate": "2021-11-20",
+      "endDate": "2022-11-19",
+      "vehicle": {
+        "type": "Lengvieji automobiliai",
+        "make": "VW",
+        "model": "PASSAT",
+        "plateNo": "HBN234",
+        "vinNo": "YARVEAHHWGZ125456",
+        "manufYear": "2018",
+        "value": "7000",
+        "signalLevel":"3"
+      },
+      "premium": "", 
+      "additionalInsurance": {
+        "premium": "",
+        "name": "Išplėstinė Pagalba, Vairuotojas ir keleiviai"
+      },
+      "schedule": [
+        {"date": "2022-01-01", "paymentSum": "125.00", "paidSum": "15.00"},
+        {"date": "2022-04-01", "paymentSum": "125.00", "paidSum": "0.00"},
+        {"date": "2022-08-01", "paymentSum": "125.00", "paidSum": "0.00"},
+        {"date": "2022-12-01", "paymentSum": "125.00", "paidSum": "0.00"}
+  ]
+    },
+    {
+      "flag": "-1",
+      "beginDate": "2021-11-20",
+      "endDate": "2022-11-19",
+      "vehicle": {
+        "plateNo": "HBN235",
+        "value": ""
+      },
+      "additionalInsurance": {},
+      "premium": "",
+      "error": "", "status":"0"
+    },
+    {
+      "flag": "-1",
+      "beginDate": "2021-11-20",
+      "endDate": "2022-11-19",
+      "vehicle": {
+        "plateNo": "HBN236",
+        "value": ""
+      },
+      "additionalInsurance": {},
+      "premium": "",
+      "error": "", "status":"0"
+    },
+    {
+      "flag": "-1",
+      "beginDate": "2021-11-20",
+      "endDate": "2022-11-19",
+      "vehicle": {
+        "plateNo": "HBN237",
+        "value": ""
+      },
+      "additionalInsurance": {},
+      "premium": "",
+      "error": "", "status":"0"
+    },
+    {
+      "flag": "-1",
+      "beginDate": "2021-11-20",
+      "endDate": "2022-11-19",
+      "vehicle": {
+        "plateNo": "HBN23ū",
+        "value": ""
+      },
+      "additionalInsurance": {},
+      "premium": "",
+      "error": "", "status":"0"
+    },
+    {
+      "flag": "-1",
+      "beginDate": "2021-11-20",
+      "endDate": "2022-11-19",
+      "vehicle": {
+        "plateNo": "HBN239",
+        "value": ""
+      },
+      "additionalInsurance": {},
+      "premium": "",
+      "error": "", "status":"0"
+    },
+    {
+      "flag": "-1",
+      "beginDate": "2021-11-20",
+      "endDate": "2022-11-19",
+      "vehicle": {
+        "plateNo": "HBN2ė0",
+        "value": ""
+      },
+      "additionalInsurance": {},
+      "premium": "",
+      "error": "", "status":"0"
+    },
+    {
+      "flag": "-1",
+      "beginDate": "2021-11-20",
+      "endDate": "2022-11-19",
+      "vehicle": {
+        "plateNo": "HBN241",
+        "value": ""
+      },
+      "additionalInsurance": {},
+      "premium": "",
+      "error": "", "status":"0"
+    }
+  ]
+}

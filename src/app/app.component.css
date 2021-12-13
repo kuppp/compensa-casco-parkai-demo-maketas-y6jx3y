@@ -1,0 +1,79 @@
+
+:host >>> .btn {
+  background-color: rgb(0,134,65);
+  border-color: rgb(0,134,65);
+  max-width: 240px;
+  }
+
+  
+
+
+  :host >>> label,
+  input {
+    font-weight: 600; padding:2px; font-size: 10pt;
+  }
+
+  :host >>> p-table td{
+    font-size: 12px;
+  }
+  :host >>> p-table th {
+    font-size: 10px;
+    background-color:#9e9e9e;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  :host >>> table td{
+    font-size: 12px;
+
+  }
+
+  :host >>> table.borders td{
+ border: 1px solid #f1f1f1;
+  }
+
+  :host >>> .p-datatable .p-datatable-thead th {
+    padding: 10px 30px;
+    background-color:#9e9e9e;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 10px;
+
+  }
+  :host >>> .p-datatable .p-datatable-thead th:hover{
+    background-color:#9e9e9e;
+  }
+
+  :host >>> .card {
+    padding: 0px 40px 8px ;
+    position: relative;
+    width: 100%;
+  }
+
+  :host >>> .p-toolbar {
+    background-color: white;
+
+  }
+
+  :host >>> table th {
+    padding: 10px 30px;
+    background-color:#9e9e9e;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 10px;
+  text-align: left;
+  }
+  
+  :host >>> .btn-apacioje {
+    padding: 0 38px;min-width: 160px;
+   position:relative;
+  }
+  
+  :host >>> .btn-vieta{
+    bottom: -10px;
+    right:45px;
+    position: absolute;
+  }

@@ -1,0 +1,124 @@
+<p-tabView>
+
+  <p-tabPanel header="Atidaryti parko draudimą">
+
+    <div class="p-fluid">
+      <div class="p-field p-grid">
+        <label for="firstname4" class="p-col-12 p-mb-2 p-md-2 p-mb-md-0"
+          >Sutarties numeris</label
+        >
+        <div class="p-col-12 p-md-10">
+          <input
+            id="firstname4"
+            type="text"
+            pInputText
+            
+            value="PARK 00000001"
+            style="width:400px"
+          />
+        </div>
+      </div>
+
+      <div class="p-field p-grid">
+      <label for="firstname4" class="p-col-12 p-mb-2 p-md-2 p-mb-md-0"
+        >Valstybinis numeris</label
+      >
+      <div class="p-col-12 p-md-10">
+        <input
+          id="firstname4"
+          type="text"
+          pInputText
+          
+          value="PARK 00000001"
+          style="width:400px"
+        />
+      </div>
+    </div>
+
+      <div class="p-field p-grid">
+        <label for="lastname4" class="p-col-12 p-mb-2 p-md-2 p-mb-md-0"
+        ></label>
+
+        <div class="p-col-12 p-md-3">
+        
+          <p-button
+          label="ieškoti"
+          icon="pi pi-search"
+          iconPos="left"
+          styleClass="p-button-success p-m-1 btn p-button-sm"
+          (click)="GlobalVariables.page = 'fleet';"
+          diasbled
+        ></p-button>     </div>
+        <div class="p-col-6 p-md-2"></div>
+      </div>
+
+      <div class="p-field p-grid">
+        <label for="lastname4" class="p-col-12 p-mb-2 p-md-2 p-mb-md-0"
+          >Draudėjas</label
+        >
+        <div class="p-col-12 p-md-10">
+          <input
+            id="lastname4"
+            type="text"
+            pInputText
+            disabled
+            value="UAB TRANSPORTO ĮMONĖ"
+            style="width:400px"
+          />
+        </div>
+      </div>
+      <div class="p-field p-grid">
+        <label for="lastname4" class="p-col-12 p-mb-2 p-md-2 p-mb-md-0"
+          >Išrašymo data</label
+        >
+        <div class="p-col-12 p-md-10">
+          <input
+            id="lastname4"
+            type="text"
+            pInputText
+            disabled
+            value="2021-12-31"
+            style="width:400px"
+          />
+        </div>
+      </div>
+      <div class="p-field p-grid">
+        <label for="lastname4" class="p-col-12 p-mb-2 p-md-2 p-mb-md-0"
+          >Objektų kiekis</label
+        >
+        <div class="p-col-12 p-md-10">
+          <input
+            id="lastname4"
+            type="text"
+            pInputText
+            disabled
+            value="12"
+            style="width:400px"
+          />
+        </div>
+      </div>
+
+
+
+      <div class="p-field p-grid">
+        <label for="lastname4" class="p-col-12 p-mb-2 p-md-2 p-mb-md-0"
+        ></label>
+
+        <div class="p-col-12 p-md-3"> <p-button
+        label="Ieškoti ffff"
+        icon="pi pi-folder-open"
+        iconPos="left"
+        styleClass="p-button-success p-m-1 btn p-button-sm"
+        (click)="variables.page = 'fleet'"
+      ></p-button>
+
+        </div>
+        <div class="p-col-6 p-md-2"></div>
+      </div>
+
+    </div>
+
+
+  </p-tabPanel>
+
+</p-tabView>

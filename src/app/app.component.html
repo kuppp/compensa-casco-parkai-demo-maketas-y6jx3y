@@ -1,0 +1,478 @@
+
+
+<div class="main-contentx">
+
+
+  <ul style="position: relative;align-items: flex-end;margin: 0;    list-style: none;">
+<li class="active" style="border-bottom: 1px solid #e5e5e5;    background-color: #fff;       width: 30%;display: block;
+letter-spacing: 0.075e;text-align: center;    padding: 10px 5px;font-size: 14px;font-weight: bold;color: #8c8d93;">
+    <a>KASKO PARKAI <span class=""></span></a>
+</li>
+</ul>
+
+
+  <div class="card">
+  <p-toolbar *ngIf="blankScreen == true"> 
+    <div class="p-toolbar-group-left">
+      <p-button
+        label="Naujas parko dok."
+        icon="pi pi-plus"
+        iconPos="left"
+        (click)="page = 'new-fleet';blankScreen = true;"
+        styleClass="p-button-secondary p-m-1 btn p-button-sm"
+      ></p-button>
+      <p-button
+      label="Skaičiuoti drausmingumą"
+      icon="pi pi-shield"
+      iconPos="left"
+      (click)="page = 'fleet-bm';blankScreen = true;"
+      styleClass="p-button-secondary p-m-1 btn p-button-sm"
+    ></p-button>
+      <p-button
+        label="Paieška"
+        icon="pi pi-search"
+        iconPos="left"
+        (click)="page = 'open-fleet';SearchResults = false;blankScreen = true;"
+        styleClass="p-button-secondary p-m-1 btn p-button-sm"
+      ></p-button>
+    </div>  
+
+    <div style="margin-top:5px;">
+    <a href="" targer="_blank"> <img src="https://esales.compensa.lt/wisp_new_test/content/shared/images/MTPL_KASKO11.jpg"  width="720px" height="120px"/></a>
+   </div>
+
+  </p-toolbar>
+</div>
+
+<div class="card">
+<div *ngIf="page == 'fleet'">
+  <app-fleet-info></app-fleet-info> 
+</div>
+</div>
+
+<div class="card">
+<div *ngIf="page == 'open-fleet'">
+  
+  
+<p-tabView>
+
+<p-tabPanel header="Atidaryti parko draudimą">
+
+  <table style="border:0px;border-collapse:collapse;width:700px;">
+    <tr>
+      <td style="width:250px;">
+         <label for="firstname4">Parko sutarties numeris</label>
+      </td>
+      <td style="width:350px;">
+         <input id="firstname4" type="text" pInputText value="" style="width:250px" />
+      </td>
+    </tr>
+
+    <tr>
+    <td style="width:250px;">
+    <label for="firstname4">Sutarties stausas</label>
+    </td>
+    <td style="width:350px;">
+   <select class="p-listbox"  style="width:250px;padding:5px;" value="1"><option value="1">Visos</option><option value="2">Patvirtintos</option><option value="3">Nepatvirtintos</option></select>
+    </td>
+
+    <tr>
+    <td style="width:250px;">
+      <label>Parko draudimo išrašymo data:</label>
+    </td>
+    <td style="width:350px;">
+    <input
+    id="firstname4"
+    type="text"
+    pInputText
+    value="2021-12-01"
+    style="width:125px;margin:1px"
+  />
+  <input
+  id="firstname4"
+  type="text"
+  pInputText
+  value="2022-12-01"
+  style="width:123px;margin:1px"
+  />
+    </td>
+
+
+    <tr>
+    <td style="width:250px;">
+      <label for="firstname4" >Transporto priemonės poliso numeris</label>
+    </td>
+    <td style="width:350px;">
+      <input id="firstname4" type="text" pInputText value="" style="width:250px" />
+    </td>
+
+
+    <tr>
+    <td style="width:250px;">
+        <label for="firstname4" class="p-col-12 p-mb-2 p-md-2 p-mb-md-0"
+        >Draudėjas</label
+      >
+    </td>
+    <td style="width:350px;">
+        <input
+        id="firstname4"
+        type="text"
+        pInputText
+        value=""
+        style="width:250px"
+      />
+    </td>
+
+
+    <tr>
+    <td style="width:250px;">
+        <label for="firstname4" class="p-col-12 p-mb-2 p-md-2 p-mb-md-0"
+        >Draudėjo kodas</label
+      >
+    </td>
+    <td style="width:350px;">
+    <span class="p-input-icon-right" style="width:250px">
+        <i class="pi pi-search"></i>
+          <input
+            id="firstname4"
+            type="text"
+            pInputText
+            value=""
+            style="width:250px"
+          />
+        </span>
+    </td>
+
+
+    <tr>
+    <td style="width:250px;">
+        <label for="firstname4" 
+        >Kuratorius</label
+      >
+    </td>
+    <td style="width:350px;">
+        <input
+        id="firstname4"
+        type="text"
+        pInputText disabled
+        value="EVELINA DALIA"
+        style="width:250px"
+      />
+    </td>
+
+
+    <tr>
+    <td style="width:250px;">
+    <label for="firstname4"
+    >Kuratoriaus kodas</label>
+    </td>
+    <td style="width:450px;">
+    <span class="p-input-icon-right" style="width:250px">
+    <i class="pi pi-search"></i>
+      <input
+        id="firstname4"
+        type="text"
+        pInputText disabled
+        value="47808080088"
+        style="width:250px"
+      /></span>
+    </td>
+  </tr>
+
+  <tr>
+  <td style="width:250px;">
+  <label for="firstname4"
+  >Valstybinis numeris</label>
+  </td>
+  <td style="width:450px;">
+  <input
+  id="firstname4"
+  type="text"
+  pInputText
+  value="ABC123"
+  style="width:250px"
+  />
+  </td>
+</tr>
+
+<tr>
+<td style="width:250px;">
+<label for="firstname4" class="p-col-12 p-mb-2 p-md-2 p-mb-md-0"
+>Kėbulo (VIN) numeris</label
+>
+</td>
+<td style="width:450px;">
+<input
+id="firstname4"
+type="text"
+pInputText
+value=""
+style="width:250px"
+/>
+</td>
+</tr>
+
+
+
+<tr>
+<td style="width:250px;">
+
+</td>
+<td style="width:450px;">
+<p-button
+label="ieškoti"
+styleClass="btn p-button-sm"
+(click)="SearchResults = true;"
+></p-button>
+</td>
+</tr>
+
+  </table>
+
+
+<div>
+
+<div *ngIf="SearchResults" style="margin-top:20px;">
+
+
+<p-table
+[value]="fleet"
+sortField="issueDate"
+sortMode="single"
+styleClass="p-datatable-gridline p-datatable-sm"
+>
+<ng-template pTemplate="header">
+  <tr>
+    <th style="width:240px">Sutarties numeris</th>
+    <th style="width:100px">Galioja nuo</th>
+    <th style="width:100px">Galioja iki</th>
+    <th style="min-width:250px">Draudėjas</th>
+    <th style="min-width:200px">Draudėjo kodas</th>
+    <th style="min-width:150px">Objektų kiekis / Galiojančių objektų</th>
+    <th></th>
+  </tr>
+</ng-template>
+
+<ng-template pTemplate="body" let-fleet let-rowIndex="rowIndex">
+  <tr>
+    <td style="width:240px">
+     <a href="" (click)="page = 'fleet'"> {{ fleet.number }}</a>
+    </td>
+    <td style="width:100px">
+      {{ fleet.startDate }}
+    </td>
+    <td style="width:100px">
+      <span>{{fleet.endDate }}</span>
+    </td>
+    <td style="min-width:200px">
+      {{ fleet.policyholder }}
+    </td>
+    <td style="min-width:200px">
+    {{ fleet.policyholderCode }}
+  </td>
+  <td style="min-width:200px">
+  {{ fleet.numberOfObjects }} / {{ fleet.numberOfCurrentObjects }} 
+</td>
+<td style="min-width:200px">
+<p-button
+      label="Atidaryti"
+      icon="pi pi-folder-open"
+      iconPos="left"
+      styleClass="p-button-success  btn p-button-sm"
+      (click)="page = 'fleet'"
+    ></p-button>
+</td>
+  </tr>
+</ng-template>
+</p-table>
+
+
+
+
+
+
+  </div>
+  <div class="btn-vieta"> 
+  <p-button
+  label="uždaryti"
+  styleClass="btn btn-apacioje p-button-sm"
+     (click)="page = 'blank'"
+  ></p-button>
+  </div>
+  </div>
+
+
+</p-tabPanel>
+
+
+</p-tabView>
+
+  </div>
+</div>
+<div class="card">
+
+  <div *ngIf="page == 'new-fleet'">
+    <app-new-fleet></app-new-fleet>
+  </div>
+</div>
+
+<div class="card">
+
+  <div *ngIf="page == 'fleet-bm'">
+    <p-tabView>
+
+      <p-tabPanel header="Skaičiuoti drausmingumą">
+        <div class="p-toolbar-group-left">
+          <p-button
+            label="Importuoti"
+            icon="pi pi-file-excel"
+            iconPos="left"
+            styleClass="p-button-success p-m-1 btn p-button-sm"
+          ></p-button>
+
+        </div>
+
+       <label for="policyholder" class="p-col-3">Savininko kodas</label>
+       
+         <BR>
+     
+       
+
+        <table class="borders" style="border-collapse:collapse;">
+          <tr>
+          <th style="padding:3px;">Draudėjo kodas</th>
+            <th style=";padding:3px;width:100px;">
+              Valst. nr.
+            </th>
+            <th style=";padding:3px;">VIN</th>
+         
+            <th style="padding:3px;">AVSK</th>
+            <th style=";padding:3px;">DRSK</th>
+            <th style="padding:3px;">DK</th>
+            <th style="padding:3px;">Koef.</th>
+          </tr>
+          <tr>
+          <td style="width:100px;"><input type="text" style="width:100px" value="11000000"/></td>
+            <td style="width:100px;"><input type="text" style="width:100px" value="VLS009"/></td>
+            <td><input type="text" /></td>
+            <td style="width:100px;"><input type="text" style="width:100px;" disabled  value="0"/></td>
+            <td style="width:100px;"><input type="text" style="width:100px;" disabled value="355"/></td>
+            <td><input type="text" disabled value="D1"/></td>
+
+      
+            <td><input type="text" disabled value="0.21"/></td>
+          </tr>
+          <tr>
+          <td style="width:100px;"><input type="text" style="width:100px;" /></td>
+            <td style="width:100px;"><input type="text" style="width:100px;" /></td>
+            <td><input type="text" /></td>
+            <td style="width:100px;"><input type="text" style="width:100px;" disabled/></td>
+            <td style="width:100px;"><input type="text" style="width:100px;" disabled/></td>
+            <td><input type="text" disabled/></td>
+            <td><input type="text" disabled/></td>
+
+          </tr>
+          <tr>
+          <td style="width:100px;"><input type="text" style="width:100px;" /></td>
+            <td style="width:100px;"><input type="text" style="width:100px;" /></td>
+            <td><input type="text" /></td>
+            <td style="width:100px;"><input type="text" style="width:100px;" disabled/></td>
+            <td style="width:100px;"><input type="text" style="width:100px;" disabled/></td>
+            <td><input type="text" disabled/></td>
+            <td><input type="text" disabled /></td>
+
+          </tr>
+          <tr>
+          <td style="width:100px;"><input type="text" style="width:100px;" /></td>
+            <td style="width:100px;"><input type="text" style="width:100px;" /></td>
+            <td><input type="text" /></td>
+            <td style="width:100px;"><input type="text" style="width:100px;" disabled/></td>
+            <td style="width:100px;"><input type="text" style="width:100px;" disabled/></td>
+            <td><input type="text" disabled /></td>
+            <td><input type="text" disabled/></td>
+
+          </tr>
+        </table>
+        <div class="p-toolbar-group-left">
+
+
+          <p-button
+            label="Vykdyti užklausas"
+            styleClass="p-button-success  p-m-1 btn p-button-sm"
+          ></p-button>
+          <p-button
+          label="Eksportuoti"
+          styleClass="p-button-success  p-m-1 btn p-button-sm"
+        ></p-button>
+
+        </div>
+      </p-tabPanel>
+      <p-tabPanel header="Koeficientai">
+        <table class="borders" style="border-collapse:collapse;">
+          <tr>
+            <th style=";padding:3px;">DRSK [</th>
+            <th style=";padding:3px;">] DRSK</th>
+            <th style="padding:3px;">AVSK [</th>
+            <th style="padding:3px;">] AVSK</th>
+            <th style="padding:3px;">DK</th>
+            <th style="padding:3px;">KOEF</th>
+          </tr>
+          <tr>
+            <td style="width:100px;"><input type="text" style="width:100px" value="0" disabled/></td>
+            <td><input type="text" value="355" disabled/></td>
+            <td style="width:100px;"><input type="text" style="width:100px;" disabled  value="0"/></td>
+            <td style="width:100px;"><input type="text" style="width:100px;" disabled value="0"/></td>
+            <td><input type="text" disabled value="D1"/></td>
+            <td><input type="text" disabled value="0,94"/></td>
+          </tr>
+          <tr>
+            <td style="width:100px;"><input type="text" style="width:100px;" disabled value="0"/></td>
+            <td><input type="text" disabled value="355" /></td>
+            <td style="width:100px;"><input type="text" style="width:100px;" disabled value="1"/></td>
+            <td style="width:100px;"><input type="text" style="width:100px;" disabled/></td>
+            <td><input type="text" disabled value="N1"/></td>
+            <td><input type="text" disabled value="1,5"/></td>
+
+          </tr>
+          <tr>
+            <td style="width:100px;"><input type="text" style="width:100px;"disabled value="0"/></td>
+            <td><input type="text" disabled value="355" /></td>
+            <td style="width:100px;"><input type="text" style="width:100px;" disabled value="2"/></td>
+            <td style="width:100px;"><input type="text" style="width:100px;" disabled/></td>
+            <td><input type="text" disabled value="N2"/></td>
+            <td><input type="text" disabled value="1,75"/></td>
+
+          </tr>
+          <tr>
+            <td style="width:100px;"><input type="text" style="width:100px;" disabled value="0"/></td>
+            <td><input type="text" disabled value="355" /></td>
+            <td style="width:100px;"><input type="text" style="width:100px;" disabled value="999"/></td>
+            <td style="width:100px;"><input type="text" style="width:100px;" disabled/></td>
+            <td><input type="text" disabled value="N3"/></td>
+            <td><input type="text" disabled value="2,00"/></td>
+
+          </tr>
+        </table>
+      </p-tabPanel>
+    </p-tabView>
+  </div>
+  <div *ngIf="page == 'blank'">
+    <h1>Compensa KASKO parkų draudimas</h1>
+    <h2>Compensa parkų draudimas</h2>
+    <p>Tai grupinis draudimas pagal sudetintas draudimo sąlygas</p>
+    <p>KASKO draudimas atlygina nuostolius dėl transporto priemonės ar jos dalių vagystės, sugadinimo, sunaikinimo, dėl visų staiga ir netikėtai įvykusių atsitikimų, išskyrus taisyklėse numatytus nedraudžiamuosius įvykius</p>
+    <p>Išplėstinio rizikų paketo atveju išskaita nėra taikoma stiklų dūžiams (žibintų, veidrodėlių ar stoglangių stiklams), stichinių nelaimių bei gamtinių jėgų padarytiems nuostoliams, susidūrimui su gyvūnais kelyje bei atvejams, kai automobilio kėbulą pavyksta suremontuoti, taikant specialią technologiją, neatliekant dažymo darbų</p>
+    <p>Išplėstinio draudimo rizikų paketo atveju, kartu su automobiliu apdraudžiame vairuotojo ir keleivių bagažą, vaikišką kėdutę, gabenamus gyvūnus, išorėje tvirtinamus įrengimus, bagažines bei daiktus, tempiamą priekabą, papildomą įrangą, valstybinius numerius, prarastų automobilio dokumentų keitimo išlaidas. Taip pat padėsime padengti užsienyje išsinuomoto automobilio išskaitą, kad ji neviršytų Jūsų automobilio draudimo sutartyje numatytos išskaitos</p>
+    <h2>Papildomi draudimai</h2>
+    <p>Suteikiame nemokamą pagalbos kelyje paslaugą, kuri teikiama visą parą ir visoje draudimo liudijimo galiojimo teritorijoje</p>
+    <hr/>
+    <h2>Naujo parko įvedimas</h2>
+    <p>Ekrano viršuje rasite mygtuką naujo parko draudimo įvedimui "Naujas parko draudimas". Ekrane turite užpildyti draudėją, mokėtoją, parko galiojimo datas. Paspaudus toliau, bus patikirnama ar nurodytam draudėjui yra aprašyta parko draudimo kainodara, kokių tipų transporto priemonės gali būti draudžiamos ir kokios taikomos standartinės Kasko parko sąlygos. </p>
+    <p></p>
+  </div>
+</div>
+
+</div>
+
+
+

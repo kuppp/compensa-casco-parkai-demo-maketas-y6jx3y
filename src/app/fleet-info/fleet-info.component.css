@@ -1,0 +1,54 @@
+.plStatus1 {
+  color: #ff5252;
+  font-weight: 800;
+}
+
+.plStatus0 {
+  color: #30d4b6 ;
+}
+
+.plStatus2 {
+  color: #34a8e5;
+}
+
+
+
+
+  
+:host >>> .p-button.p-button-success.p-button-outlined {
+  border-color: rgb(0,134,65);
+  color: rgb(0,134,65);
+  background-color:#f1f1f1;
+  }
+
+  :host >>> .p-button.p-button-success:hover {
+    background: #646464;
+  }
+
+  #dropArea {
+    
+    border: 2px dashed rgb(0,134,65);
+    float: left;
+    font-size: 1em;
+    height: 40px;
+    margin: 5px;
+    padding:5px;
+    position: relative;
+    text-align: center;
+    width: 600px;
+    color:rgb(0,134,65);
+}
+#dropArea.hover {
+    background-color: #CCCCCC;
+}
+
+:host >>> table th {
+  padding: 10px 30px;
+  background-color:#9e9e9e;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 10px;
+text-align: left;
+}
+
